@@ -1,6 +1,50 @@
+ *{
+    font-family: 'Roboto';
+ }
  h1 {
     font-size: 24px;
     color: rgb(12, 102, 192);
     font-weight: bold;
     text-align: center;
+  }
+  .cat {
+    border-radius: 50%;
+  }
+  .list {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    
+  }
+  ul {
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+    display: flex;
+    align-items: center;
+  }
+  li {
+    margin-right: 40px;
+  }
+  .cat {
+    margin-top: 40px;
+    margin-left: 100px;
+  }
+  nav {
+    background-color: blueviolet;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+  a {
+    color: rgb(225, 235, 246);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+  }
+  @media only screen and (m-width: 400px){
+    .list {
+        background-color: aquamarine;
+    }
   }
